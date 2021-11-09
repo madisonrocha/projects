@@ -63,7 +63,7 @@ A summary of the access policies in place can be found in the table below.
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because it helps with the representation of Infrastructure as Code (IAC) making management of servers easier, and reduces errors in configuration.
 
 The playbook implements the following tasks:
-- Install Docker: downlaods and install the docker code to the server download image; etc._
+- Install Docker: downloads and installs the docker code to the server download image
 - Install Python3: TODO
 - Install Docker Module: TODO
 - Download/Launch Elk: TODO
