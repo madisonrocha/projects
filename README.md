@@ -90,7 +90,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 SSH into the control node and follow the steps below:
 - Copy the _____ file to _____.
-- Update the hosts file to include elk and the destination use
-- Run the playbook, and navigate to kibana to check that the installation worked as expected.
+- Update the hosts file to include ELK and the destination use.
+- Run the playbook, and navigate to Kibana to check that the installation worked as expected.
 
 
