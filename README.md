@@ -60,7 +60,7 @@ A summary of the access policies in place can be found in the table below.
 
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because it helps with the representation of Infrastructure as Code (IAC) making management of servers esier, and reduces errors in configuration.
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because it helps with the representation of Infrastructure as Code (IAC) making management of servers easier, and reduces errors in configuration.
 
 The playbook implements the following tasks:
 - Install Docker: downlaods and install the docker code to the server download image; etc._
