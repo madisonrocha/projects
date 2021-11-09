@@ -24,7 +24,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 Load balancing ensures that the application will be available, in addition to restricting access to the network.
 
-The jumpbox was purposed as the gateway access point into the web server machines which allowed access through a key generated for ssh usage. Adding the load balancer allowed for stability accross the web servers. 
+The jumpbox was purposed as the gateway access point into the web server machines which allowed access through a key generated for SSH usage. Adding the load balancer allowed for stability accross the web servers. 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system files.
 
