@@ -29,7 +29,7 @@ The jumpbox was purposed as the gateway access point into the web server machine
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system files.
 
 Filebeat looks for and processes log data according to the parameters given and forwards all of the changes into Elasticsearch. 
-Metricbeat records system resource usage and forwards the metrics into ELasticsearch for further analyzation.
+Metricbeat records system resource usage and forwards the metrics into Elasticsearch for further analyzation.
 
 The configuration details of each machine may be found below.
 
