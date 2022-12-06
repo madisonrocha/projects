@@ -42,10 +42,14 @@ Traffic to these services should be carefully monitored. To this end, we have im
 
 - Alert 2: HTTP Request Size Monitor
   Alert 2 is implemented as follows:
+  
     **Metric:** http.request.bytes (HTTP request in bytes)
+    
     **Threshold:** Select the packetbeat indice
     WHEN sum() of http.request.bytes OVER all documents IS ABOVE 3500 FOR THE LAST 1 minute
+    
     **Vulnerability Mitigated:** Buffer Overflow, which can cause servers to go down if they cannot handle the size of the http request body, and cause memory leaks, and the leaking of inodes, which can lead to sensitive information being exposed, because it cannot intake all of it the new data and get rid of the old data at the same time in a proper manner. 
+    
     **Reliability:** This monitor is highly reliable. HTTP request sizes are fairly stable and predictable, therefore anything that differs would be marked as suspicious and flagged for additional monitoring and/or looking into. 
 
 ![Http Request Size Monitor](https://user-images.githubusercontent.com/87619948/205849865-f7eb4466-9562-4c27-91f3-4e2d96ec1ce6.PNG)
