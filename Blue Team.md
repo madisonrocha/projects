@@ -68,16 +68,16 @@ Traffic to these services should be carefully monitored. To this end, we have im
 The logs and alerts generated during the assessment suggest that this network is susceptible to several active threats, identified by the alerts above. In addition to watching for occurrences of such threats, the network should be hardened against them. The Blue Team suggests that IT implement the fixes below to protect the network:
 
 - **Excessive CPU Usage**
- - **Patch:** Monitoring and alerts 
- - **Why It Works:** By monitoring the use of CPU, as well as setting alerts for any programs taking up an unusual amount of CPU will allow for further inspection of why this is happening. From there it can be determined if the excessive CPU usage is warranted by a specific program, or if it is a malicious threat to a system.
+  - **Patch:** Monitoring and alerts 
+  - **Why It Works:** By monitoring the use of CPU, as well as setting alerts for any programs taking up an unusual amount of CPU will allow for further inspection of why this is happening. From there it can be determined if the excessive CPU usage is warranted by a specific program, or if it is a malicious threat to a system.
 
 - **Brute Force**
- - **Patch:** strong passwords, account logouts after x amount of failed attempts 
- - **Why It Works:** The use of strong passwords that have the characteristics of complexity, randomness, and length will help mitigate the use of dictionary attacks, as common passwords are usually easy to guess using programs such as john, hydra, or the use of rainbow tables. Locking out accounts after a predetermined amount of failed login attempts will prevent the attacker from being able to continue to try different passwords on a system, as well as alert the account user that someone is trying to gain unauthorized access to an attack.
+  - **Patch:** strong passwords, account logouts after x amount of failed attempts 
+  - **Why It Works:** The use of strong passwords that have the characteristics of complexity, randomness, and length will help mitigate the use of dictionary attacks, as common passwords are usually easy to guess using programs such as john, hydra, or the use of rainbow tables. Locking out accounts after a predetermined amount of failed login attempts will prevent the attacker from being able to continue to try different passwords on a system, as well as alert the account user that someone is trying to gain unauthorized access to an attack.
 
 - **DDoS Attacks**
- - **Patch:** load balancers, server redundancy 
- - **Why It Works:** Using load balancers helps servers to properly handle all of the data that they are receiving without becoming overwhelmed. This can prevent the use of exploits such as buffer overflow, which can cause the leaking of sensitive information. Server redundancy allows for servers to have information readily available on multiple servers, thus if one goes down or is a victim of a DDoS attack, the information is still readily available via another server.  
+  - **Patch:** load balancers, server redundancy 
+  - **Why It Works:** Using load balancers helps servers to properly handle all of the data that they are receiving without becoming overwhelmed. This can prevent the use of exploits such as buffer overflow, which can cause the leaking of sensitive information. Server redundancy allows for servers to have information readily available on multiple servers, thus if one goes down or is a victim of a DDoS attack, the information is still readily available via another server.  
 
 
 
