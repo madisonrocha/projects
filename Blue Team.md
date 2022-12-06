@@ -31,6 +31,7 @@ Target 1 is an Apache web server and has SSH enabled, so ports 80 and 22 are pos
 Traffic to these services should be carefully monitored. To this end, we have implemented the alerts below:
 
 - **Alert 1: Excessive HTTP Errors**
+  
   Alert 1 is implemented as follows:
    - **Metric:** http.response.status_code (HTTP response code)
    - **Threshold:** Select the packetbeat indice
@@ -41,6 +42,7 @@ Traffic to these services should be carefully monitored. To this end, we have im
 ![Excessive HTTP Errors](https://user-images.githubusercontent.com/87619948/205848923-d5075b8b-1375-47f5-bd9f-60eaa57cf4bd.PNG)
 
 - **Alert 2: HTTP Request Size Monitor**
+  
   Alert 2 is implemented as follows:
   
    -  **Metric:** http.request.bytes (HTTP request in bytes)
@@ -52,6 +54,7 @@ Traffic to these services should be carefully monitored. To this end, we have im
 ![Http Request Size Monitor](https://user-images.githubusercontent.com/87619948/205849865-f7eb4466-9562-4c27-91f3-4e2d96ec1ce6.PNG)
 
 - **Alert 3: CPU Usage Monitor**
+  
   Alert 3 is implemented as follows:
    - **Metric:** system.process.cpu.total.pct (single process cpu usage percent)
    - **Threshold:** Select the metricbeat indice
