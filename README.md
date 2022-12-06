@@ -1,4 +1,4 @@
-#Project Descriptions
+# Project Descriptions
 ## Automated Elkstack Deployment
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA. Load balancing ensures that the application will be available, in addition to restricting access to the network. Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system files.
 
